@@ -1,0 +1,8 @@
+.directions{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 420px;
+    height: 150px;
+    border: 2px solid black;
+}

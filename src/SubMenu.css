@@ -1,0 +1,73 @@
+#subMenu{
+    position: relative;
+}
+#subMenu1{
+    position :absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+}
+
+#subMenu2{
+    position :absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    z-index: 2;
+}
+
+#subMenu3{
+    position :absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    z-index: 2;
+    
+}
+
+#subMenu1 > div {
+    border-bottom: 3px solid black;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#subMenu2 > div {
+    border-bottom: 3px solid black;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#subMenu3 > div {
+    border-bottom: 3px solid black;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#row1{
+    grid-row: 1/2;
+}
+#row2{
+    grid-row: 2/3;
+}
+#row3{
+    grid-row: 3/4;
+}
+#row4{
+    grid-row: 4/5;
+}

@@ -1,0 +1,65 @@
+.lowerPanel{
+    width: 400px;
+    height: 280px;
+    background: #6b6b6b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.player{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: white;
+    height: 240px;
+    width: 240px;
+    border-radius: 250px;
+}
+
+button{
+    background: white;
+    border: none;
+    width: 45px;
+    height: 30px;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+
+#menuButton{
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#play{
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+
+#rewind{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 15px;
+}
+
+#forward{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+
+#middle{
+    border-radius: 50%;
+    background: #6b6b6b;
+}
